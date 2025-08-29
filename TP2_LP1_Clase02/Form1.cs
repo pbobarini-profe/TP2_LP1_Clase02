@@ -102,6 +102,8 @@ namespace TP2_LP1_Clase02
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //int indice = Array.IndexOf(numeros, null);
+            //Array.Resize(ref numeros, 5);
             if(ultimoElemento < numeros.Length)
             {
                 numeros[ultimoElemento] = int.Parse(textBox1.Text);
